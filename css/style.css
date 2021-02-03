@@ -22,6 +22,10 @@
   background-color: blue;
   margin-top: 30px;
   height: 180px;
- 
+  border-radius: 9px;
 }
 /* /Style Section 6 col */
+.bg_lightblue {
+  background-color: lightblue;
+  margin-top: 50px;
+}
