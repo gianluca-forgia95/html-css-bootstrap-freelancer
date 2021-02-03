@@ -1,3 +1,5 @@
+
+/* Style Header */
 .bg_green {
   background-color: lightgreen;
   height: 500px;
@@ -13,12 +15,13 @@
   border: 1px solid black;
   height: 100px;
 }
-
-
-.hero_header {
-  height: 400px;
-  background-color: lightgreen;
-  width: 80%;
-  margin: auto;
-
+/* /Style Header */
+/* Style Section 6 col */
+.img_six {
+  border: 2px solid black;
+  background-color: blue;
+  margin-top: 30px;
+  height: 180px;
+ 
 }
+/* /Style Section 6 col */
