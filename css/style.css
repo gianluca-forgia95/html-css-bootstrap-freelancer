@@ -1,0 +1,24 @@
+.bg_green {
+  background-color: lightgreen;
+  height: 500px;
+}
+.img_hero {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 50px;
+}
+.nav_header {
+  border: 1px solid black;
+  height: 100px;
+}
+
+
+.hero_header {
+  height: 400px;
+  background-color: lightgreen;
+  width: 80%;
+  margin: auto;
+
+}
