@@ -25,6 +25,7 @@
   border-radius: 9px;
 }
 /* /Style Section 6 col */
+/* Mix */
 .bg_lightblue {
   background-color: lightblue;
   margin-top: 50px;
@@ -39,3 +40,8 @@
 .mg_top {
   margin-top: 20px;
 }
+.bg_darkblue {
+  background-color: #000033;
+  color: #fff;
+}
+/*/ Mix */
