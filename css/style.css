@@ -17,6 +17,11 @@ body {
   background-color: lightblue;
   margin-top: 50px;
 }
+.bg_darkblue {
+  background-color: #000033;
+  color: #fff;
+}
+
 .cl_dark {
   color: #2c3e50;
 }
@@ -31,17 +36,32 @@ h3 {
   font-size: 20px;
   line-height: 70px;
 }
+h2 {
+  font-size: 40px;
+}
  .btn_green {
   background-color:  #1abc9c;
   border: 2px solid #fff;
 }
+
+.mg_top {
+  margin-top: 40px;
+}
 /* /Mix */
+/* Style Header */
 .img_hero {
   width: 200px;
   height: 200px;
   margin: auto;
   margin-top: 50px;
 }
+.mg_top_hero {
+  margin-top: 100px;
+}
+.sect_header {
+  text-transform: uppercase;
+}
+/* /Style Header */
 /* Stile Star */
 .separatore_star {
  width: 100px;
@@ -67,9 +87,9 @@ font-size: 20px;
   color: #fff;
   font-size: 20px;
 }
-/* Stile Star */
-/* /Style Header */
-/* Style Section 6 col */
+/* /Stile Star */
+
+/* Stile Section Portfolio */
 .img_six {
   position: relative;
   border-radius: 9px;
@@ -102,16 +122,16 @@ font-size: 20px;
   font-size: 80px;
   color: #fff;
 }
-/* /Style Section 6 col */
-/* Stile sezione About */
+/* /Stile Section Portfolio */
+/* Stile Section About */
 #about {
   padding: 60px 0;
 }
 .down_load {
   margin-right: 5px;
 }
-/* /Stile sezione About */
-/* Stile sezione Contact */
+/* /Stile Section About */
+/* Stile Section Contact */
 #contact {
   padding: 50px 0;
 }
@@ -119,13 +139,14 @@ font-size: 20px;
   border-left: none;
   border-right: none;
   border-top: none;
-  border-bottom: 2px solid #2c3e50;
+  border-bottom: 2px solid lightgrey;
   box-shadow: none;
   margin-top: 20px;
   font-size: 20px;
+  line-height: 60px;
 }
-/* /Stile sezione Contact */
-/* stile Footer */
+/* /Stile Section Contact */
+/* Stile Footer */
 .scl {
   color: #fff;
   border: 2px solid #fff;
@@ -153,9 +174,7 @@ color:  #1abc9c;
   margin: auto;
 
 }
-.mg_top {
-  margin-top: 40px;
-}
+
 .bg_darkblue {
   background-color: #000033;
   color: #fff;
