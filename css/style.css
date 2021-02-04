@@ -20,10 +20,18 @@ body {
 .cl_dark {
   color: #2c3e50;
 }
-h1 , h2 ,  h3 {
+h1 , h2 {
   text-transform: uppercase;
 }
-.btn_green {
+h1 {
+  font-size: 50px;
+  line-height: 100px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 70px;
+}
+ .btn_green {
   background-color:  #1abc9c;
   border: 2px solid #fff;
 }
@@ -34,6 +42,7 @@ h1 , h2 ,  h3 {
   margin: auto;
   margin-top: 50px;
 }
+/* Stile Star */
 .separatore_star {
  width: 100px;
  border: 2px solid #fff;
@@ -58,13 +67,40 @@ font-size: 20px;
   color: #fff;
   font-size: 20px;
 }
-
+/* Stile Star */
 /* /Style Header */
 /* Style Section 6 col */
-.img_six > img {
-  margin-top: 30px;
-  width: 100%;
+.img_six {
+  position: relative;
   border-radius: 9px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+ .img_six:hover div.overlay {
+   display: block;
+
+}
+.overlay {
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #1abc9c;
+  opacity: 0.8;
+}
+.img_six > img {
+  width: 100%;
+
+}
+.plus {
+  line-height: 260px;
+  text-align: center;
+  margin-left: 150px;
+  font-size: 80px;
+  color: #fff;
 }
 /* /Style Section 6 col */
 /* Stile sezione About */
