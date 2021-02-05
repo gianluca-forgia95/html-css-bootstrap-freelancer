@@ -18,7 +18,7 @@ body {
   margin-top: 50px;
 }
 .bg_darkblue {
-  background-color: #000033;
+  background-color: #343a40;
   color: #fff;
 }
 
@@ -43,12 +43,19 @@ h2 {
   background-color:  #1abc9c;
   border: 2px solid #fff;
 }
+.btn_green:hover {
+  color:  #2c3e50;
+  background-color: #fff;
+}
 
 .mg_top {
   margin-top: 40px;
 }
 /* /Mix */
 /* Style Header */
+.nav_header ul li a:hover {
+  color: #1abc9c;
+}
 .img_hero {
   width: 200px;
   height: 200px;
@@ -60,6 +67,12 @@ h2 {
 }
 .sect_header {
   text-transform: uppercase;
+}
+
+.btn_mobile i {
+  background-color: #1abc9c;
+  height: 100px;
+  color: #fff;
 }
 /* /Style Header */
 /* Stile Star */
@@ -140,10 +153,12 @@ font-size: 20px;
   border-right: none;
   border-top: none;
   border-bottom: 2px solid lightgrey;
+  border-radius: none;
   box-shadow: none;
   margin-top: 20px;
   font-size: 20px;
   line-height: 60px;
+
 }
 /* /Stile Section Contact */
 /* Stile Footer */
